@@ -1,0 +1,29 @@
+<!-- chat.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Чат - SaturnNet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Заголовок чата -->
+        <div class="chat-header">
+            <div class="chat-info">
+                <h2>SaturnNet demo</h2>
+                <p id="onlineCount">10 в сети</p>
+            </div>
+        </div>
+        <!-- Сообщения -->
+        <div class="messages" id="messages"></div>
+        <!-- Ввод сообщения -->
+        <div class="chat-input">
+            <input type="text" id="message" placeholder="Введите сообщение...">
+            <button id="sendMessageBtn">➤</button>
+        </div>
+    </div>
+    <script type="module" src="chatScript.js"></script>
+</body>
+</html>
